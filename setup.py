@@ -6,6 +6,8 @@ setup(
     install_requires=[
         'numpy',
         'fairseq',
+        'soundfile',
+        'tqdm',
         'cached-path',
         'click',
         'torchaudio',

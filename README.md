@@ -21,6 +21,18 @@ This implementation supports CPU, CUDA, and MPS, as well as ROCm if PyTorch is c
 
 ## Installation
 
+### Conda (recommended)
+
+Create the environment from `environment.yml` (pins pip/torch/torchaudio and installs all dependencies):
+
+```bash
+conda env create -f environment.yml
+conda activate utmos
+pip install -e .
+```
+
+### Pip
+
 ```bash
 pip install utmos
 ```
@@ -31,6 +43,11 @@ pip install utmos
 
 ```bash
 utmos audio.wav
+```
+
+```bash
+utmos /path/to/folder
+utmos /path/to/folder --no-recursive
 ```
 
 ### Python API

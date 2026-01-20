@@ -1,0 +1,17 @@
+name: utmos
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10
+  - pip=24.0
+  - pip:
+      - torch==2.5.0
+      - torchaudio==2.5.0
+      - numpy
+      - fairseq
+      - soundfile
+      - tqdm
+      - cached-path
+      - click
+      - pytorch-lightning
+      - transformers
